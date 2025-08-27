@@ -1,0 +1,17 @@
+[project]
+name = "AnnotatedTransformer"
+version = "0.1.0"
+description = "This repository contains an updated implementation of the 'Annotated Transformer'"
+readme = "README.md"
+requires-python = "==3.12.7"
+dependencies = [
+    "datasets==3.0.1",
+    "gputil==1.4.0",
+    "ipykernel==6.30.1",
+    "ipywidgets==8.1.7",
+    "nbformat==5.10.4",
+    "pandas==2.2.3",
+    "plotly==5.24.1",
+    "torch==2.4.1",
+    "transformers==4.45.2",
+]
